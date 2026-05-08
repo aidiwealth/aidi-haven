@@ -67,7 +67,7 @@
     </div>
 
     <p class="properties-note">
-      All properties are owned and managed by Aidi Haven LLC, a California-licensed property management business operating in San Jose, California. Bookings are processed directly through Airbnb. Investment products related to these properties are offered separately through
+      All properties are owned and managed by Aidi Haven LLC, a California-licensed property rental management business operating in San Jose, California. Bookings are processed directly through Airbnb. Investment products related to these properties are offered separately through
       <a
         href="https://joinaidi.com/products/real-estate"
         target="_blank"
