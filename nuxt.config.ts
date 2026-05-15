@@ -6,6 +6,14 @@ export default defineNuxtConfig({
   // Global stylesheet — the entire <style> block from aidi-haven.html.
   css: ['~/assets/css/main.css'],
 
+  // Public runtime config — exposed to the browser.
+  // Override at deploy time with NUXT_PUBLIC_SLACK_WEBHOOK_URL.
+  runtimeConfig: {
+    public: {
+      slackWebhookUrl: ''
+    }
+  },
+
 app: {
   head: {
     htmlAttrs: { lang: 'en' },
