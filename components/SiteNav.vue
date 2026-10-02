@@ -1,5 +1,5 @@
 <template>
-<nav class="nav">
+<nav class="nav" :class="{ scrolled }">
   <div class="nav-inner">
     <a href="https://aidihaven.com" class="brand" aria-label="Aidi Group">
     <span class="brand-mark" aria-hidden="true">
@@ -15,7 +15,7 @@
     <span class="brand-arm">Haven</span>
   </a>
 
-  <a class="nav-cta" href="https://joinaidi.com/products/real-estate" target="_blank" rel="noopener">
+  <a class="nav-cta" href="https://theaidigroup.com" target="_blank" rel="noopener">
     Visit Group
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
       <line x1="3" y1="13" x2="13" y2="3"/>
@@ -27,6 +27,10 @@
 </template>
 
 <script setup lang="ts">
-// Static fixed top nav. The brand mark links to the Aidi Group homepage;
-// the right-side CTA points to joinaidi.com/products/real-estate.
+// Fixed top nav: white at the top, grey once the page scrolls.
+// The right-side CTA points to theaidigroup.com.
+const scrolled = ref(false)
+const onScroll = (): void => { scrolled.value = window.scrollY > 10 }
+onMounted(() => { onScroll(); window.addEventListener('scroll', onScroll, { passive: true }) })
+onBeforeUnmount(() => window.removeEventListener('scroll', onScroll))
 </script>

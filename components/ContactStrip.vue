@@ -11,8 +11,8 @@
     </div>
     <div class="strip-block parent">
       <span class="strip-label">Group</span>
-      <a class="strip-parent-link" href="https://joinaidi.com/products/real-estate" target="_blank" rel="noopener">
-        joinaidi.com
+      <a class="strip-parent-link" href="https://theaidigroup.com" target="_blank" rel="noopener">
+        theaidigroup.com
         <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
           <line x1="3" y1="13" x2="13" y2="3"/>
           <polyline points="6 3 13 3 13 10"/>

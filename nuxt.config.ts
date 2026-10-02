@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   // Global stylesheet — the entire <style> block from aidi-haven.html.
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/main.css', '~/assets/css/aidi-group.css'],
 
   // Public runtime config — exposed to the browser.
   // Override at deploy time with NUXT_PUBLIC_SLACK_WEBHOOK_URL.
@@ -31,7 +31,7 @@ app: {
       {
         name: 'keywords',
         content:
-          'Short-stay rentals San Jose, Silicon Valley Airbnb, furnished rentals San Jose, professionally managed Airbnb, Aidi Haven, Aidi Ventures Group, Bay Area short-term rental, San Jose vacation rental'
+          'Short-stay rentals San Jose, Silicon Valley Airbnb, furnished rentals San Jose, professionally managed Airbnb, Aidi Haven, The Aidi Group, Bay Area short-term rental, San Jose vacation rental'
       },
 
       // Open Graph (Facebook, LinkedIn, iMessage previews, etc.)
