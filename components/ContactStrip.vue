@@ -3,7 +3,7 @@
   <div class="strip-inner">
     <div class="strip-block contact">
       <span class="strip-label">Bookings &amp; Stays</span>
-      <a class="strip-value" href="mailto:stay@aidihaven.com">stay@aidihaven.com</a>
+      <a class="strip-value" href="mailto:company@aidihaven.com">company@aidihaven.com</a>
     </div>
     <div class="strip-block line">
       <span class="strip-label">Direct Line</span>

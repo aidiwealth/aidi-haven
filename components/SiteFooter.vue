@@ -19,7 +19,7 @@
         <span class="gf-arm" aria-hidden="true">Haven</span>
       </a>
       <p class="gf-statement">Professionally managed short&#8209;stay rentals in the heart of Silicon Valley.</p>
-      <a class="gf-email" href="mailto:stay@aidihaven.com">stay@aidihaven.com</a>
+      <a class="gf-email" href="mailto:company@aidihaven.com">company@aidihaven.com</a>
       <nav class="gf-links" aria-label="Footer">
         <a href="#properties">Properties</a>
         <a href="https://theaidigroup.com" target="_blank" rel="noopener">The Aidi Group</a>
