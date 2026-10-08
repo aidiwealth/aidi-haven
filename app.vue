@@ -1,3 +1,6 @@
 <template>
-  <NuxtPage />
+  <div>
+    <NuxtPage />
+    <CookieConsent site="aidihaven.com" />
+  </div>
 </template>
